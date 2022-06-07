@@ -1,0 +1,4 @@
+enum LoginFormProperty {
+  email,
+  password,
+}
