@@ -47,10 +47,3 @@ class LoginSubmittedEvent extends LoginEvent {
   @override
   List<Object> get props => [email, password];
 }
-
-// class LogoutRequest extends LoginEvent {
-//    LoginSubmitted() {
-//    // TODO: implement LoginSubmitted
-//    throw UnimplementedError();
-//  }
-// }
